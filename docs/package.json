@@ -1,0 +1,19 @@
+{
+  "name": "elephantmipt.github.io",
+  "version": "0.0.1",
+  "description": "blog",
+  "main": "index.js",
+  "authors": {
+    "name": "Nikita Balagansky",
+    "email": "nikitabalagansky@gmail.com"
+  },
+  "repository": "elephantmipt/elephantmipt.github.io",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  }
+}
