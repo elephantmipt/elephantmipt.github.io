@@ -18,5 +18,19 @@ module.exports = {
                 {text: 'MIT Licensed | Copyright © 2021-present Nikita Balagansky'}
             ]
           },
+          nav: [
+            {
+              text: 'Blog',
+              link: '/',
+            },
+            {
+              text: 'Tags',
+              link: '/tag/',
+            },
+            {
+              text: 'Donate',
+              link: 'https://www.buymeacoffee.com/elephantmipt'
+            }
+          ]
     }
 }
