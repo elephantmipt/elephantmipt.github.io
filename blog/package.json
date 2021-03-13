@@ -4,7 +4,10 @@
     "vuepress": "^1.8.2"
   },
   "scripts": {
-    "dev": "vuepress dev blog",
+    "dev": "vuepress dev",
     "build": "vuepress build blog"
+  },
+  "dependencies": {
+    "vuepress-plugin-mathjax": "^1.2.8"
   }
 }

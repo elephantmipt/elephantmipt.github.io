@@ -1,6 +1,7 @@
 module.exports = {
-    title: 'VuePress Blog Example', // Title for the site. This will be displayed in the navbar.
+    title: 'Nikita Balagansky', // Title for the site. This will be displayed in the navbar.
     theme: '@vuepress/theme-blog',
+    plugins: ["vuepress-plugin-mathjax"],
     themeConfig: {
         footer: {
             contact: [
