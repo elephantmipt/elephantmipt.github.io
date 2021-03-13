@@ -32,7 +32,7 @@ as the
 
 $$p(x) = \dfrac{\operatorname{exp}(-E_\theta (x))}{Z(\theta)}$$
 
-, where $Z(\theta) = \int \exp(-E_\theta (x) d x$ is a Z-sum. This integral can be find
+, where $Z(\theta) = \int \exp(-E_\theta (x)) d x$ is a Z-sum. This integral can be find
 via MCMC, but it's not efficient. So instead of maximizing probability authors took gradient directly from $E(\theta)$
 
 ## Results
