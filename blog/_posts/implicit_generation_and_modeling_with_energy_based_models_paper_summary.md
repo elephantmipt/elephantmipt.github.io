@@ -60,7 +60,51 @@ generalize, that test data is from the same distribution with train data. But EB
 
 ## Code example
 
-TODO...
+```python
+# from https://github.com/rosinality/igebm-pytorch/blob/master/train.py#L111
+
+for i, (pos_img, pos_id) in loader:
+    pos_img, pos_id = pos_img.to(device), pos_id.to(device)
+
+    neg_img, neg_id = sample_buffer(buffer, pos_img.shape[0])
+    neg_img.requires_grad = True
+
+    requires_grad(parameters, False)
+    model.eval()
+
+    for k in tqdm(range(sample_step)):
+        if noise.shape[0] != neg_img.shape[0]:
+            noise = torch.randn(neg_img.shape[0], 3, 32, 32, device=device)
+
+        noise.normal_(0, 0.005)
+        neg_img.data.add_(noise.data)
+
+        neg_out = model(neg_img, neg_id)
+        neg_out.sum().backward()
+        neg_img.grad.data.clamp_(-0.01, 0.01)
+
+        neg_img.data.add_(-step_size, neg_img.grad.data)
+
+        neg_img.grad.detach_()
+        neg_img.grad.zero_()
+
+        neg_img.data.clamp_(0, 1)
+
+    neg_img = neg_img.detach()
+
+    requires_grad(parameters, True)
+    model.train()
+
+    model.zero_grad()
+
+    pos_out = model(pos_img, pos_id)
+    neg_out = model(neg_img, neg_id)
+
+    loss = alpha * (pos_out ** 2 + neg_out ** 2)
+    loss = loss + (pos_out - neg_out)
+    loss = loss.mean()
+    loss.backward()
+```
 
 _Thanks for reading!_
 
