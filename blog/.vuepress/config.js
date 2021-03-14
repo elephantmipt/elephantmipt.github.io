@@ -1,7 +1,7 @@
 module.exports = {
     title: 'Nikita Balagansky', // Title for the site. This will be displayed in the navbar.
     theme: '@vuepress/theme-blog',
-    plugins: ["vuepress-plugin-mathjax"],
+    plugins: ["vuepress-plugin-mathjax", 'vue-plotly'],
     themeConfig: {
         footer: {
             contact: [

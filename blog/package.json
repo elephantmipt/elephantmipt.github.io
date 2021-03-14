@@ -8,6 +8,9 @@
     "build": "vuepress build blog"
   },
   "dependencies": {
+    "plotly.js": "^1.58.4",
+    "prismjs": "^1.23.0",
+    "vue-plotly": "^1.1.0",
     "vuepress-plugin-mathjax": "^1.2.8"
   }
 }
