@@ -27,10 +27,6 @@ module.exports = {
               text: 'Tags',
               link: '/tag/',
             },
-            {
-              text: 'Donate',
-              link: 'https://www.buymeacoffee.com/elephantmipt'
-            }
           ]
     }
 }
