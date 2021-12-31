@@ -2,14 +2,6 @@
 sidebar: auto
 ---
 
-# Config
+# Пойти нахуй
 
-## foo
-
-- Type: `string`
-- Default: `/`
-
-## bar
-
-- Type: `string`
-- Default: `/`
+## Иди нахуй
