@@ -11,8 +11,8 @@ jobs:
       uses: jenkey2011/vuepress-deploy@master
       env:
         ACCESS_TOKEN: ${{ secrets.GH_TOKEN }}
-        TARGET_REPO: username/repo
+        TARGET_REPO: elephantmipt/elephantmipt.github.io
         TARGET_BRANCH: master
         BUILD_SCRIPT: yarn && yarn build
         BUILD_DIR: docs/.vuepress/dist
-        CNAME: https://www.nlp.ceo
+        CNAME: http://www.nlp.ceo
