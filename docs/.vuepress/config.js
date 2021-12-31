@@ -38,7 +38,7 @@ module.exports = {
         link: '/guide/',
       },
       {
-        text: 'Config',
+        text: 'Пойти нахуй',
         link: '/config/'
       }
     ],
