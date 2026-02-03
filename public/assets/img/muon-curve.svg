@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="420" viewBox="0 0 900 420" role="img" aria-label="Muon optimizer toy curve">
+  <rect width="900" height="420" fill="#fdf9f3"/>
+  <g stroke="#ead8cb" stroke-width="1">
+    <line x1="80" y1="60" x2="80" y2="360" />
+    <line x1="80" y1="360" x2="840" y2="360" />
+    <line x1="80" y1="280" x2="840" y2="280" />
+    <line x1="80" y1="200" x2="840" y2="200" />
+    <line x1="80" y1="120" x2="840" y2="120" />
+  </g>
+  <path d="M80 320 C180 280, 260 240, 340 230 C420 220, 500 240, 580 210 C660 180, 740 160, 840 150" fill="none" stroke="#a24b2e" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="340" cy="230" r="6" fill="#a24b2e"/>
+  <circle cx="580" cy="210" r="6" fill="#a24b2e"/>
+  <text x="80" y="392" fill="#7a6d63" font-size="14" font-family="Instrument Sans, Arial, sans-serif">step</text>
+  <text x="20" y="80" fill="#7a6d63" font-size="14" font-family="Instrument Sans, Arial, sans-serif" transform="rotate(-90 20 80)">loss</text>
+</svg>

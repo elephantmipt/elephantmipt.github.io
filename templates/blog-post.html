@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{{title}} | Nikita Balagansky</title>
+    <meta name="description" content="{{description}}" />
+    <link rel="stylesheet" href="{{assetPrefix}}assets/css/site.css" />
+    <script>
+      window.MathJax = {
+        tex: {
+          inlineMath: [['$', '$'], ['\\(', '\\)']],
+          displayMath: [['$$', '$$'], ['\\[', '\\]']],
+        },
+        options: {
+          skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+        },
+      };
+    </script>
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
+    ></script>
+  </head>
+  <body>
+    <div class="site-shell">
+      <nav class="nav">
+        <div class="nav-inner">
+          <a class="brand" href="{{homeLink}}">Nikita Balagansky</a>
+          <div class="nav-links">
+            <a href="{{homeLink}}">Home</a>
+            <a href="{{blogLink}}" aria-current="page">Blog</a>
+            <a href="{{pubLink}}">Publications</a>
+          </div>
+        </div>
+      </nav>
+
+      <main class="main">
+        <p class="meta">{{date}}</p>
+        <h1 class="name">{{title}}</h1>
+        <p class="bio">{{description}}</p>
+        <section class="section">
+          <article class="post-content">
+            {{content}}
+          </article>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <div class="footer-inner">
+          <span>Copyright <span data-year></span></span>
+          <span>Built with simple HTML</span>
+        </div>
+      </footer>
+    </div>
+
+    <script src="{{assetPrefix}}assets/js/site.js"></script>
+  </body>
+</html>

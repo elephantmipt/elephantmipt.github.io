@@ -1,0 +1,474 @@
+<dblpperson name="Nikita Balagansky" pid="318/0989" n="23">
+<person key="homepages/318/0989" mdate="2022-04-12">
+<author pid="318/0989">Nikita Balagansky</author>
+</person>
+<r>
+<inproceedings key="conf/iclr/BalaganskyMG25" mdate="2025-05-15">
+<author pid="318/0989">Nikita Balagansky</author>
+<author pid="375/2064">Ian Maksimov</author>
+<author pid="234/8563">Daniil Gavrilov</author>
+<title>Mechanistic Permutability: Match Features Across Layers.</title>
+<year>2025</year>
+<booktitle>ICLR</booktitle>
+<ee type="oa">https://openreview.net/forum?id=MDvecs7EvO</ee>
+<crossref>conf/iclr/2025</crossref>
+<url>db/conf/iclr/iclr2025.html#BalaganskyMG25</url>
+</inproceedings>
+</r>
+<r>
+<inproceedings key="conf/iclr/GorbatovskiSMSA25" mdate="2025-05-15">
+<author pid="341/1362">Alexey Gorbatovski</author>
+<author pid="369/4365">Boris Shaposhnikov</author>
+<author pid="375/1019">Alexey Malakhov</author>
+<author pid="375/1094">Nikita Surnachev</author>
+<author pid="369/4488">Yaroslav Aksenov</author>
+<author pid="375/2064">Ian Maksimov</author>
+<author pid="318/0989">Nikita Balagansky</author>
+<author pid="234/8563">Daniil Gavrilov</author>
+<title>Learn Your Reference Model for Real Good Alignment.</title>
+<year>2025</year>
+<booktitle>ICLR</booktitle>
+<ee type="oa">https://openreview.net/forum?id=H0qIWXXLUR</ee>
+<crossref>conf/iclr/2025</crossref>
+<url>db/conf/iclr/iclr2025.html#GorbatovskiSMSA25</url>
+</inproceedings>
+</r>
+<r>
+<inproceedings key="conf/icml/LaptevBAG25" mdate="2025-12-05">
+<author pid="399/4792">Daniil Laptev</author>
+<author pid="318/0989">Nikita Balagansky</author>
+<author pid="369/4488">Yaroslav Aksenov</author>
+<author pid="234/8563">Daniil Gavrilov</author>
+<title>Analyze Feature Flow to Enhance Interpretation and Steering in Language Models.</title>
+<year>2025</year>
+<booktitle>ICML</booktitle>
+<ee type="oa">https://openreview.net/forum?id=SENVTfjHPr</ee>
+<crossref>conf/icml/2025</crossref>
+<url>db/conf/icml/icml2025.html#LaptevBAG25</url>
+</inproceedings>
+</r>
+<r>
+<inproceedings key="conf/colm/KoriaginALGGBG25" mdate="2025-06-01">
+<author pid="413/2624">Nikita Koriagin</author>
+<author pid="369/4488">Yaroslav Aksenov</author>
+<author pid="399/4792">Daniil Laptev</author>
+<author pid="399/9357">Gleb Gerasimov</author>
+<author pid="318/0989">Nikita Balagansky</author>
+<author pid="234/8563">Daniil Gavrilov</author>
+<title>Teach Old SAEs New Domain Tricks with Boosting.</title>
+<year>2025</year>
+<booktitle>COLM</booktitle>
+<ee type="oa">https://openreview.net/forum?id=d4XXFVAlV7</ee>
+<crossref>conf/colm/2025</crossref>
+<url>db/conf/colm/colm2025.html#KoriaginALGGBG25</url>
+</inproceedings>
+</r>
+<r>
+<article publtype="informal" key="journals/corr/abs-2502-03032" mdate="2025-03-11">
+<author pid="399/4792">Daniil Laptev</author>
+<author pid="318/0989">Nikita Balagansky</author>
+<author pid="369/4488">Yaroslav Aksenov</author>
+<author pid="234/8563">Daniil Gavrilov</author>
+<title>Analyze Feature Flow to Enhance Interpretation and Steering in Language Models.</title>
+<year>2025</year>
+<month>February</month>
+<volume>abs/2502.03032</volume>
+<journal>CoRR</journal>
+<ee type="oa">https://doi.org/10.48550/arXiv.2502.03032</ee>
+<url>db/journals/corr/corr2502.html#abs-2502-03032</url>
+<stream>streams/journals/corr</stream>
+</article>
+</r>
+<r>
+<article publtype="informal" key="journals/corr/abs-2502-09245" mdate="2025-03-12">
+<author pid="399/9357">Gleb Gerasimov</author>
+<author pid="369/4488">Yaroslav Aksenov</author>
+<author pid="318/0989">Nikita Balagansky</author>
+<author pid="351/7957">Viacheslav Sinii</author>
+<author pid="234/8563">Daniil Gavrilov</author>
+<title>You Do Not Fully Utilize Transformer's Representation Capacity.</title>
+<year>2025</year>
+<month>February</month>
+<volume>abs/2502.09245</volume>
+<journal>CoRR</journal>
+<ee type="oa">https://doi.org/10.48550/arXiv.2502.09245</ee>
+<url>db/journals/corr/corr2502.html#abs-2502-09245</url>
+<stream>streams/journals/corr</stream>
+</article>
+</r>
+<r>
+<article publtype="informal" key="journals/corr/abs-2505-18706" mdate="2025-06-26">
+<author pid="351/7957">Viacheslav Sinii</author>
+<author pid="341/1362">Alexey Gorbatovski</author>
+<author pid="408/5495">Artem Cherepanov</author>
+<author pid="369/4365">Boris Shaposhnikov</author>
+<author pid="318/0989">Nikita Balagansky</author>
+<author pid="234/8563">Daniil Gavrilov</author>
+<title>Steering LLM Reasoning Through Bias-Only Adaptation.</title>
+<year>2025</year>
+<month>May</month>
+<volume>abs/2505.18706</volume>
+<journal>CoRR</journal>
+<ee type="oa">https://doi.org/10.48550/arXiv.2505.18706</ee>
+<url>db/journals/corr/corr2505.html#abs-2505-18706</url>
+<stream>streams/journals/corr</stream>
+</article>
+</r>
+<r>
+<article publtype="informal" key="journals/corr/abs-2505-22255" mdate="2025-06-29">
+<author pid="409/1939">Vadim Kurochkin</author>
+<author pid="369/4488">Yaroslav Aksenov</author>
+<author pid="399/4792">Daniil Laptev</author>
+<author pid="234/8563">Daniil Gavrilov</author>
+<author pid="318/0989">Nikita Balagansky</author>
+<title>Train Sparse Autoencoders Efficiently by Utilizing Features Correlation.</title>
+<year>2025</year>
+<month>May</month>
+<volume>abs/2505.22255</volume>
+<journal>CoRR</journal>
+<ee type="oa">https://doi.org/10.48550/arXiv.2505.22255</ee>
+<url>db/journals/corr/corr2505.html#abs-2505-22255</url>
+<stream>streams/journals/corr</stream>
+</article>
+</r>
+<r>
+<article publtype="informal" key="journals/corr/abs-2505-24473" mdate="2025-06-29">
+<author pid="318/0989">Nikita Balagansky</author>
+<author pid="369/4488">Yaroslav Aksenov</author>
+<author pid="399/4792">Daniil Laptev</author>
+<author pid="409/1939">Vadim Kurochkin</author>
+<author pid="399/9357">Gleb Gerasimov</author>
+<author pid="408/9473">Nikita Koryagin</author>
+<author pid="234/8563">Daniil Gavrilov</author>
+<title>Train One Sparse Autoencoder Across Multiple Sparsity Budgets to Preserve Interpretability and Accuracy.</title>
+<year>2025</year>
+<month>May</month>
+<volume>abs/2505.24473</volume>
+<journal>CoRR</journal>
+<ee type="oa">https://doi.org/10.48550/arXiv.2505.24473</ee>
+<url>db/journals/corr/corr2505.html#abs-2505-24473</url>
+<stream>streams/journals/corr</stream>
+</article>
+</r>
+<r>
+<article publtype="informal" key="journals/corr/abs-2507-12990" mdate="2025-08-17">
+<author pid="413/2624">Nikita Koriagin</author>
+<author pid="369/4488">Yaroslav Aksenov</author>
+<author pid="399/4792">Daniil Laptev</author>
+<author pid="399/9357">Gleb Gerasimov</author>
+<author pid="318/0989">Nikita Balagansky</author>
+<author pid="234/8563">Daniil Gavrilov</author>
+<title>Teach Old SAEs New Domain Tricks with Boosting.</title>
+<year>2025</year>
+<month>July</month>
+<volume>abs/2507.12990</volume>
+<journal>CoRR</journal>
+<ee type="oa">https://doi.org/10.48550/arXiv.2507.12990</ee>
+<url>db/journals/corr/corr2507.html#abs-2507-12990</url>
+<stream>streams/journals/corr</stream>
+</article>
+</r>
+<r>
+<article publtype="informal" key="journals/corr/abs-2508-12061" mdate="2025-09-15">
+<author pid="351/0910">Daria Diatlova</author>
+<author pid="318/0989">Nikita Balagansky</author>
+<author pid="385/7463">Alexander Varlamov</author>
+<author pid="243/9511">Egor Spirin</author>
+<title>VARAN: Variational Inference for Self-Supervised Speech Models Fine-Tuning on Downstream Tasks.</title>
+<year>2025</year>
+<month>August</month>
+<volume>abs/2508.12061</volume>
+<journal>CoRR</journal>
+<ee type="oa">https://doi.org/10.48550/arXiv.2508.12061</ee>
+<url>db/journals/corr/corr2508.html#abs-2508-12061</url>
+<stream>streams/journals/corr</stream>
+</article>
+</r>
+<r>
+<article publtype="informal" key="journals/corr/abs-2509-06608" mdate="2025-10-12">
+<author pid="351/7957">Viacheslav Sinii</author>
+<author pid="318/0989">Nikita Balagansky</author>
+<author pid="399/9357">Gleb Gerasimov</author>
+<author pid="399/4792">Daniil Laptev</author>
+<author pid="369/4488">Yaroslav Aksenov</author>
+<author pid="409/1939">Vadim Kurochkin</author>
+<author pid="341/1362">Alexey Gorbatovski</author>
+<author pid="369/4365">Boris Shaposhnikov</author>
+<author pid="234/8563">Daniil Gavrilov</author>
+<title>Small Vectors, Big Effects: A Mechanistic Study of RL-Induced Reasoning via Steering Vectors.</title>
+<year>2025</year>
+<month>September</month>
+<volume>abs/2509.06608</volume>
+<journal>CoRR</journal>
+<ee type="oa">https://doi.org/10.48550/arXiv.2509.06608</ee>
+<url>db/journals/corr/corr2509.html#abs-2509-06608</url>
+<stream>streams/journals/corr</stream>
+</article>
+</r>
+<r>
+<article publtype="informal" key="journals/corr/abs-2510-08369" mdate="2025-11-11">
+<author pid="316/9860">Viacheslav Meshchaninov</author>
+<author pid="395/5723">Egor Shibaev</author>
+<author pid="419/7101">Artem Makoian</author>
+<author pid="408/9661">Ivan Klimov</author>
+<author pid="419/7378">Danil Sheshenya</author>
+<author pid="174/5705">Andrey Malinin</author>
+<author pid="318/0989">Nikita Balagansky</author>
+<author pid="234/8563">Daniil Gavrilov</author>
+<author pid="228/9365">Aibek Alanov</author>
+<author pid="89/3348">Dmitry P. Vetrov</author>
+<title>Guided Star-Shaped Masked Diffusion.</title>
+<year>2025</year>
+<month>October</month>
+<volume>abs/2510.08369</volume>
+<journal>CoRR</journal>
+<ee type="oa">https://doi.org/10.48550/arXiv.2510.08369</ee>
+<url>db/journals/corr/corr2510.html#abs-2510-08369</url>
+<stream>streams/journals/corr</stream>
+</article>
+</r>
+<r>
+<inproceedings key="conf/acl/AksenovBVSGG24" mdate="2025-03-03">
+<author pid="369/4488">Yaroslav Aksenov</author>
+<author pid="318/0989">Nikita Balagansky</author>
+<author pid="369/2887">Sofia Maria Lo Cicero Vaina</author>
+<author pid="369/4365">Boris Shaposhnikov</author>
+<author orcid="0000-0003-3705-0047" pid="341/1362">Alexey Gorbatovski</author>
+<author pid="234/8563">Daniil Gavrilov</author>
+<title>Linear Transformers with Learnable Kernel Functions are Better In-Context Models.</title>
+<pages>9584-9597</pages>
+<year>2024</year>
+<booktitle>ACL (1)</booktitle>
+<ee type="oa">https://doi.org/10.18653/v1/2024.acl-long.518</ee>
+<ee type="oa">https://aclanthology.org/2024.acl-long.518</ee>
+<ee>https://www.wikidata.org/entity/Q131458238</ee>
+<crossref>conf/acl/2024-1</crossref>
+<url>db/conf/acl/acl2024-1.html#AksenovBVSGG24</url>
+</inproceedings>
+</r>
+<r>
+<article publtype="informal" key="journals/corr/abs-2402-10644" mdate="2024-02-26">
+<author pid="369/4488">Yaroslav Aksenov</author>
+<author pid="318/0989">Nikita Balagansky</author>
+<author pid="369/2887">Sofia Maria Lo Cicero Vaina</author>
+<author pid="369/4365">Boris Shaposhnikov</author>
+<author pid="341/1362">Alexey Gorbatovski</author>
+<author pid="234/8563">Daniil Gavrilov</author>
+<title>Linear Transformers with Learnable Kernel Functions are Better In-Context Models.</title>
+<year>2024</year>
+<volume>abs/2402.10644</volume>
+<journal>CoRR</journal>
+<ee type="oa">https://doi.org/10.48550/arXiv.2402.10644</ee>
+<url>db/journals/corr/corr2402.html#abs-2402-10644</url>
+</article>
+</r>
+<r>
+<article publtype="informal" key="journals/corr/abs-2404-09656" mdate="2024-05-15">
+<author pid="341/1362">Alexey Gorbatovski</author>
+<author pid="369/4365">Boris Shaposhnikov</author>
+<author pid="375/1019">Alexey Malakhov</author>
+<author pid="375/1094">Nikita Surnachev</author>
+<author pid="369/4488">Yaroslav Aksenov</author>
+<author pid="375/2064">Ian Maksimov</author>
+<author pid="318/0989">Nikita Balagansky</author>
+<author pid="234/8563">Daniil Gavrilov</author>
+<title>Learn Your Reference Model for Real Good Alignment.</title>
+<year>2024</year>
+<volume>abs/2404.09656</volume>
+<journal>CoRR</journal>
+<ee type="oa">https://doi.org/10.48550/arXiv.2404.09656</ee>
+<url>db/journals/corr/corr2404.html#abs-2404-09656</url>
+</article>
+</r>
+<r>
+<article publtype="informal" key="journals/corr/abs-2410-07656" mdate="2024-11-18">
+<author pid="318/0989">Nikita Balagansky</author>
+<author pid="375/2064">Ian Maksimov</author>
+<author pid="234/8563">Daniil Gavrilov</author>
+<title>Mechanistic Permutability: Match Features Across Layers.</title>
+<year>2024</year>
+<volume>abs/2410.07656</volume>
+<journal>CoRR</journal>
+<ee type="oa">https://doi.org/10.48550/arXiv.2410.07656</ee>
+<url>db/journals/corr/corr2410.html#abs-2410-07656</url>
+<stream>streams/journals/corr</stream>
+</article>
+</r>
+<r>
+<article publtype="informal" key="journals/corr/abs-2305-10818" mdate="2023-05-25">
+<author pid="318/0989">Nikita Balagansky</author>
+<author pid="234/8563">Daniil Gavrilov</author>
+<title>Democratized Diffusion Language Model.</title>
+<year>2023</year>
+<volume>abs/2305.10818</volume>
+<journal>CoRR</journal>
+<ee type="oa">https://doi.org/10.48550/arXiv.2305.10818</ee>
+<url>db/journals/corr/corr2305.html#abs-2305-10818</url>
+</article>
+</r>
+<r>
+<article publtype="informal" key="journals/corr/abs-2305-10835" mdate="2023-05-25">
+<author pid="234/8563">Daniil Gavrilov</author>
+<author pid="318/0989">Nikita Balagansky</author>
+<title>Ahead-of-Time P-Tuning.</title>
+<year>2023</year>
+<volume>abs/2305.10835</volume>
+<journal>CoRR</journal>
+<ee type="oa">https://doi.org/10.48550/arXiv.2305.10835</ee>
+<url>db/journals/corr/corr2305.html#abs-2305-10835</url>
+</article>
+</r>
+<r>
+<inproceedings key="conf/nips/BalaganskyG22" mdate="2024-01-08">
+<author pid="318/0989">Nikita Balagansky</author>
+<author pid="234/8563">Daniil Gavrilov</author>
+<title>PALBERT: Teaching ALBERT to Ponder.</title>
+<year>2022</year>
+<crossref>conf/nips/2022</crossref>
+<booktitle>NeurIPS</booktitle>
+<ee type="oa">http://papers.nips.cc/paper_files/paper/2022/hash/5a9c1af5f76da0bd37903b6f23e96c74-Abstract-Conference.html</ee>
+<url>db/conf/nips/neurips2022.html#BalaganskyG22</url>
+</inproceedings>
+</r>
+<r>
+<inproceedings key="conf/rep4nlp/GavrilovB22" mdate="2022-05-30">
+<author pid="234/8563">Daniil Gavrilov</author>
+<author pid="318/0989">Nikita Balagansky</author>
+<title>PALBERT: Teaching ALBERT to Ponder.</title>
+<pages>213-220</pages>
+<year>2022</year>
+<booktitle>RepL4NLP@ACL</booktitle>
+<ee type="oa">https://aclanthology.org/2022.repl4nlp-1.22</ee>
+<crossref>conf/rep4nlp/2022</crossref>
+<url>db/conf/rep4nlp/rep4nlp2022.html#GavrilovB22</url>
+</inproceedings>
+</r>
+<r>
+<article publtype="informal" key="journals/corr/abs-2204-03276" mdate="2022-04-12">
+<author pid="318/0989">Nikita Balagansky</author>
+<author pid="234/8563">Daniil Gavrilov</author>
+<title>PALBERT: Teaching ALBERT to Ponder.</title>
+<year>2022</year>
+<volume>abs/2204.03276</volume>
+<journal>CoRR</journal>
+<ee type="oa">https://doi.org/10.48550/arXiv.2204.03276</ee>
+<url>db/journals/corr/corr2204.html#abs-2204-03276</url>
+</article>
+</r>
+<r>
+<article publtype="informal" key="journals/corr/abs-2205-07276" mdate="2022-05-17">
+<author pid="320/3893">Askhat Sitdikov</author>
+<author pid="318/0989">Nikita Balagansky</author>
+<author pid="234/8563">Daniil Gavrilov</author>
+<author pid="307/6550">Alexander Markov</author>
+<title>Classifiers are Better Experts for Controllable Text Generation.</title>
+<year>2022</year>
+<volume>abs/2205.07276</volume>
+<journal>CoRR</journal>
+<ee type="oa">https://doi.org/10.48550/arXiv.2205.07276</ee>
+<url>db/journals/corr/corr2205.html#abs-2205-07276</url>
+</article>
+</r>
+<r>
+<article publtype="informal" key="journals/corr/abs-2211-12092" mdate="2022-11-24">
+<author pid="331/2588">Mark Rofin</author>
+<author pid="318/0989">Nikita Balagansky</author>
+<author pid="234/8563">Daniil Gavrilov</author>
+<title>Linear Interpolation In Parameter Space is Good Enough for Fine-Tuned Language Models.</title>
+<year>2022</year>
+<volume>abs/2211.12092</volume>
+<journal>CoRR</journal>
+<ee type="oa">https://doi.org/10.48550/arXiv.2211.12092</ee>
+<url>db/journals/corr/corr2211.html#abs-2211-12092</url>
+</article>
+</r>
+<coauthors n="29" nc="2">
+<co c="0">
+<na f="a/Aksenov:Yaroslav" pid="369/4488">Yaroslav Aksenov</na>
+</co>
+<co c="0">
+<na f="a/Alanov:Aibek" pid="228/9365">Aibek Alanov</na>
+</co>
+<co c="0">
+<na f="c/Cherepanov:Artem" pid="408/5495">Artem Cherepanov</na>
+</co>
+<co c="1">
+<na f="d/Diatlova:Daria" pid="351/0910">Daria Diatlova</na>
+</co>
+<co c="0">
+<na f="g/Gavrilov:Daniil" pid="234/8563">Daniil Gavrilov</na>
+</co>
+<co c="0">
+<na f="g/Gerasimov:Gleb" pid="399/9357">Gleb Gerasimov</na>
+</co>
+<co c="0">
+<na f="g/Gorbatovski:Alexey" pid="341/1362">Alexey Gorbatovski</na>
+</co>
+<co c="0">
+<na f="k/Klimov:Ivan" pid="408/9661">Ivan Klimov</na>
+</co>
+<co c="0">
+<na f="k/Koriagin:Nikita" pid="413/2624">Nikita Koriagin</na>
+</co>
+<co c="0">
+<na f="k/Koryagin:Nikita" pid="408/9473">Nikita Koryagin</na>
+</co>
+<co c="0">
+<na f="k/Kurochkin:Vadim" pid="409/1939">Vadim Kurochkin</na>
+</co>
+<co c="0">
+<na f="l/Laptev:Daniil" pid="399/4792">Daniil Laptev</na>
+</co>
+<co c="0">
+<na f="m/Makoian:Artem" pid="419/7101">Artem Makoian</na>
+</co>
+<co c="0">
+<na f="m/Maksimov:Ian" pid="375/2064">Ian Maksimov</na>
+</co>
+<co c="0">
+<na f="m/Malakhov:Alexey" pid="375/1019">Alexey Malakhov</na>
+</co>
+<co c="0">
+<na f="m/Malinin:Andrey" pid="174/5705">Andrey Malinin</na>
+</co>
+<co c="0">
+<na f="m/Markov:Alexander" pid="307/6550">Alexander Markov</na>
+</co>
+<co c="0">
+<na f="m/Meshchaninov:Viacheslav" pid="316/9860">Viacheslav Meshchaninov</na>
+</co>
+<co c="0">
+<na f="r/Rofin:Mark" pid="331/2588">Mark Rofin</na>
+</co>
+<co c="0">
+<na f="s/Shaposhnikov:Boris" pid="369/4365">Boris Shaposhnikov</na>
+</co>
+<co c="0">
+<na f="s/Sheshenya:Danil" pid="419/7378">Danil Sheshenya</na>
+</co>
+<co c="0">
+<na f="s/Shibaev:Egor" pid="395/5723">Egor Shibaev</na>
+</co>
+<co c="0">
+<na f="s/Sinii:Viacheslav" pid="351/7957">Viacheslav Sinii</na>
+</co>
+<co c="0">
+<na f="s/Sitdikov:Askhat" pid="320/3893">Askhat Sitdikov</na>
+</co>
+<co c="1">
+<na f="s/Spirin:Egor" pid="243/9511">Egor Spirin</na>
+</co>
+<co c="0">
+<na f="s/Surnachev:Nikita" pid="375/1094">Nikita Surnachev</na>
+</co>
+<co c="0">
+<na f="v/Vaina:Sofia_Maria_Lo_Cicero" pid="369/2887">Sofia Maria Lo Cicero Vaina</na>
+</co>
+<co c="1">
+<na f="v/Varlamov:Alexander" pid="385/7463">Alexander Varlamov</na>
+</co>
+<co c="0">
+<na f="v/Vetrov:Dmitry_P=" pid="89/3348">Dmitry P. Vetrov</na>
+</co>
+</coauthors>
+</dblpperson>

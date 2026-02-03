@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Publications | {{name}}</title>
+    <meta name="description" content="Selected publications." />
+    <link rel="stylesheet" href="../assets/css/site.css" />
+  </head>
+  <body>
+    <div class="site-shell">
+      <nav class="nav">
+        <div class="nav-inner">
+          <a class="brand" href="../">{{name}}</a>
+          <div class="nav-links">
+            <a href="../">Home</a>
+            <a href="../blog/">Blog</a>
+            <a href="./" aria-current="page">Publications</a>
+          </div>
+        </div>
+      </nav>
+
+      <main class="main">
+        <h1 class="name">Publications</h1>
+        <p class="bio">Selected papers and preprints.</p>
+
+        {{items}}
+      </main>
+
+      <footer class="footer">
+        <div class="footer-inner">
+          <span>Copyright <span data-year></span></span>
+          <span>Built with simple HTML</span>
+        </div>
+      </footer>
+    </div>
+
+    <script src="../assets/js/site.js"></script>
+  </body>
+</html>

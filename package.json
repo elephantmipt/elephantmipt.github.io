@@ -1,0 +1,21 @@
+{
+  "name": "elephantmipt-site",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "build:posts": "node scripts/build-posts.mjs",
+    "build:pubs": "node scripts/build-publications.mjs",
+    "dev": "node scripts/build-posts.mjs && node scripts/build-publications.mjs && vite",
+    "build": "node scripts/build-posts.mjs && node scripts/build-publications.mjs && vite build",
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1",
+    "gray-matter": "^4.0.3",
+    "katex": "^0.16.11",
+    "markdown-it": "^14.1.0",
+    "markdown-it-katex": "^2.0.3",
+    "vite": "^5.4.0"
+  }
+}

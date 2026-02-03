@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Line Plot</title>
+    <style>
+      html, body {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        background: #ffffff;
+        font-family: "Instrument Sans", "Helvetica Neue", Arial, sans-serif;
+      }
+      #chart {
+        width: 100%;
+        height: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="chart"></div>
+    <script src="https://cdn.plot.ly/plotly-2.27.0.min.js"></script>
+    <script>
+      const x = Array.from({ length: 60 }, (_, i) => i);
+      const y = x.map((v) => Math.sin(v / 6) + 0.15 * Math.cos(v / 2));
+
+      const trace = {
+        x,
+        y,
+        type: "scatter",
+        mode: "lines",
+        line: { color: "#111111", width: 2.5 },
+      };
+
+      const layout = {
+        margin: { l: 40, r: 20, t: 20, b: 35 },
+        paper_bgcolor: "#ffffff",
+        plot_bgcolor: "#ffffff",
+        xaxis: {
+          title: "step",
+          tickfont: { size: 11, color: "#5f6368" },
+          titlefont: { size: 12, color: "#5f6368" },
+          gridcolor: "#efefef",
+          zerolinecolor: "#e6e6e6",
+        },
+        yaxis: {
+          title: "signal",
+          tickfont: { size: 11, color: "#5f6368" },
+          titlefont: { size: 12, color: "#5f6368" },
+          gridcolor: "#efefef",
+          zerolinecolor: "#e6e6e6",
+        },
+      };
+
+      Plotly.newPlot("chart", [trace], layout, {
+        displayModeBar: false,
+        responsive: true,
+      });
+    </script>
+  </body>
+</html>
