@@ -16,6 +16,7 @@ if (fs.existsSync(blogDir)) {
 
 export default defineConfig({
   base: "./",
+  appType: "mpa",
   build: {
     rollupOptions: {
       input: {
