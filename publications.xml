@@ -1,7 +1,44 @@
-<dblpperson name="Nikita Balagansky" pid="318/0989" n="23">
+<dblpperson name="Nikita Balagansky" pid="318/0989" n="25">
 <person key="homepages/318/0989" mdate="2022-04-12">
 <author pid="318/0989">Nikita Balagansky</author>
 </person>
+<r>
+<inproceedings key="conf/emnlp/SiniiGCSBG25" mdate="2026-02-02">
+<author pid="351/7957">Viacheslav Sinii</author>
+<author pid="341/1362">Alexey Gorbatovski</author>
+<author pid="408/5495">Artem Cherepanov</author>
+<author pid="369/4365">Boris Shaposhnikov</author>
+<author pid="318/0989">Nikita Balagansky</author>
+<author pid="234/8563">Daniil Gavrilov</author>
+<title>Steering LLM Reasoning Through Bias-Only Adaptation.</title>
+<pages>9202-9211</pages>
+<year>2025</year>
+<booktitle>EMNLP</booktitle>
+<ee type="oa">https://aclanthology.org/2025.emnlp-main.467/</ee>
+<crossref>conf/emnlp/2025</crossref>
+<url>db/conf/emnlp/emnlp2025.html#SiniiGCSBG25</url>
+<stream>streams/conf/emnlp</stream>
+</inproceedings>
+</r>
+<r>
+<inproceedings key="conf/emnlp/BalaganskyALKGKG25" mdate="2026-02-02">
+<author pid="318/0989">Nikita Balagansky</author>
+<author pid="369/4488">Yaroslav Aksenov</author>
+<author pid="399/4792">Daniil Laptev</author>
+<author pid="409/1939">Vadim Kurochkin</author>
+<author pid="399/9357">Gleb Gerasimov</author>
+<author pid="413/2624">Nikita Koriagin</author>
+<author pid="234/8563">Daniil Gavrilov</author>
+<title>Train One Sparse Autoencoder Across Multiple Sparsity Budgets to Preserve Interpretability and Accuracy.</title>
+<pages>10171-10179</pages>
+<year>2025</year>
+<booktitle>EMNLP</booktitle>
+<ee type="oa">https://aclanthology.org/2025.emnlp-main.515/</ee>
+<crossref>conf/emnlp/2025</crossref>
+<url>db/conf/emnlp/emnlp2025.html#BalaganskyALKGKG25</url>
+<stream>streams/conf/emnlp</stream>
+</inproceedings>
+</r>
 <r>
 <inproceedings key="conf/iclr/BalaganskyMG25" mdate="2025-05-15">
 <author pid="318/0989">Nikita Balagansky</author>
@@ -48,7 +85,7 @@
 </inproceedings>
 </r>
 <r>
-<inproceedings key="conf/colm/KoriaginALGGBG25" mdate="2025-06-01">
+<inproceedings key="conf/colm/KoriaginALGGB25" mdate="2025-09-30">
 <author pid="413/2624">Nikita Koriagin</author>
 <author pid="369/4488">Yaroslav Aksenov</author>
 <author pid="399/4792">Daniil Laptev</author>
@@ -59,8 +96,6 @@
 <year>2025</year>
 <booktitle>COLM</booktitle>
 <ee type="oa">https://openreview.net/forum?id=d4XXFVAlV7</ee>
-<crossref>conf/colm/2025</crossref>
-<url>db/conf/colm/colm2025.html#KoriaginALGGBG25</url>
 </inproceedings>
 </r>
 <r>
@@ -238,8 +273,7 @@
 <title>Linear Transformers with Learnable Kernel Functions are Better In-Context Models.</title>
 <pages>9584-9597</pages>
 <year>2024</year>
-<booktitle>ACL (1)</booktitle>
-<ee type="oa">https://doi.org/10.18653/v1/2024.acl-long.518</ee>
+<booktitle>ACL</booktitle>
 <ee type="oa">https://aclanthology.org/2024.acl-long.518</ee>
 <ee>https://www.wikidata.org/entity/Q131458238</ee>
 <crossref>conf/acl/2024-1</crossref>

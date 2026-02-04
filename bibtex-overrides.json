@@ -1,0 +1,36 @@
+{
+  "items": [
+    {
+      "title": "Mechanistic Permutability: Match Features Across Layers",
+      "bibtex": "@inproceedings{balagansky2025mechanistic,\n  title={Mechanistic Permutability: Match Features Across Layers},\n  author={Nikita Balagansky and Ian Maksimov and Daniil Gavrilov},\n  booktitle={The Thirteenth International Conference on Learning Representations},\n  year={2025},\n  url={https://openreview.net/forum?id=MDvecs7EvO}\n}"
+    },
+    {
+      "title": "PALBERT: Teaching ALBERT to Ponder",
+      "bibtex": "@inproceedings{palbert,\n  author={Balagansky, Nikita and Gavrilov, Daniil},\n  booktitle={Advances in Neural Information Processing Systems},\n  editor={S. Koyejo and S. Mohamed and A. Agarwal and D. Belgrave and K. Cho and A. Oh},\n  pages={14002--14012},\n  publisher={Curran Associates, Inc.},\n  title={PALBERT: Teaching ALBERT to Ponder},\n  url={https://proceedings.neurips.cc/paper_files/paper/2022/file/5a9c1af5f76da0bd37903b6f23e96c74-Paper-Conference.pdf},\n  volume={35},\n  year={2022}\n}"
+    },
+    {
+      "title": "Linear Transformers with Learnable Kernel Functions are Better In-Context Models",
+      "bibtex": "@inproceedings{aksenov-etal-2024-linear,\n  title={Linear Transformers with Learnable Kernel Functions are Better In-Context Models},\n  author={Aksenov, Yaroslav and Balagansky, Nikita and Lo Cicero Vaina, Sofia and Shaposhnikov, Boris and Gorbatovski, Alexey and Gavrilov, Daniil},\n  editor={Ku, Lun-Wei and Martins, Andre and Srikumar, Vivek},\n  booktitle={Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)},\n  month=aug,\n  year={2024},\n  address={Bangkok, Thailand},\n  publisher={Association for Computational Linguistics},\n  url={https://aclanthology.org/2024.acl-long.518/},\n  doi={10.18653/v1/2024.acl-long.518},\n  pages={9584--9597}\n}"
+    },
+    {
+      "title": "Analyze Feature Flow to Enhance Interpretation and Steering in Language Models",
+      "bibtex": "@inproceedings{laptev2025analyze,\n  title={Analyze Feature Flow to Enhance Interpretation and Steering in Language Models},\n  author={Daniil Laptev and Nikita Balagansky and Yaroslav Aksenov and Daniil Gavrilov},\n  booktitle={Forty-second International Conference on Machine Learning},\n  year={2025},\n  url={https://openreview.net/forum?id=SENVTfjHPr}\n}"
+    },
+    {
+      "title": "Learn Your Reference Model for Real Good Alignment",
+      "bibtex": "@inproceedings{gorbatovski2025learn,\n  title={Learn Your Reference Model for Real Good Alignment},\n  author={Alexey Gorbatovski and Boris Shaposhnikov and Alexey Malakhov and Nikita Surnachev and Yaroslav Aksenov and Ian Maksimov and Nikita Balagansky and Daniil Gavrilov},\n  booktitle={The Thirteenth International Conference on Learning Representations},\n  year={2025},\n  url={https://openreview.net/forum?id=H0qIWXXLUR}\n}"
+    },
+    {
+      "title": "Train One Sparse Autoencoder Across Multiple Sparsity Budgets to Preserve Interpretability and Accuracy",
+      "bibtex": "@inproceedings{balagansky-etal-2025-train,\n  title={Train One Sparse Autoencoder Across Multiple Sparsity Budgets to Preserve Interpretability and Accuracy},\n  author={Balagansky, Nikita and Aksenov, Yaroslav and Laptev, Daniil and Kurochkin, Vadim and Gerasimov, Gleb and Koriagin, Nikita and Gavrilov, Daniil},\n  editor={Christodoulopoulos, Christos and Chakraborty, Tanmoy and Rose, Carolyn and Peng, Violet},\n  booktitle={Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing},\n  month=nov,\n  year={2025},\n  address={Suzhou, China},\n  publisher={Association for Computational Linguistics},\n  url={https://aclanthology.org/2025.emnlp-main.515/},\n  doi={10.18653/v1/2025.emnlp-main.515},\n  pages={10171--10179},\n  ISBN={979-8-89176-332-6}\n}"
+    },
+    {
+      "title": "Steering LLM Reasoning Through Bias-Only Adaptation",
+      "bibtex": "@inproceedings{sinii-etal-2025-steering,\n  title={Steering {LLM} Reasoning Through Bias-Only Adaptation},\n  author={Sinii, Viacheslav and Gorbatovski, Alexey and Cherepanov, Artem and Shaposhnikov, Boris and Balagansky, Nikita and Gavrilov, Daniil},\n  editor={Christodoulopoulos, Christos and Chakraborty, Tanmoy and Rose, Carolyn and Peng, Violet},\n  booktitle={Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing},\n  month=nov,\n  year={2025},\n  address={Suzhou, China},\n  publisher={Association for Computational Linguistics},\n  url={https://aclanthology.org/2025.emnlp-main.467/},\n  doi={10.18653/v1/2025.emnlp-main.467},\n  pages={9202--9211},\n  ISBN={979-8-89176-332-6}\n}"
+    },
+    {
+      "title": "Teach Old SAEs New Domain Tricks with Boosting",
+      "bibtex": "@inproceedings{koriagin2025teach,\n  title={Teach Old {SAE}s New Domain Tricks with Boosting},\n  author={Nikita Koriagin and Yaroslav Aksenov and Daniil Laptev and Gleb Gerasimov and Nikita Balagansky and Daniil Gavrilov},\n  booktitle={Second Conference on Language Modeling},\n  year={2025},\n  url={https://openreview.net/forum?id=d4XXFVAlV7}\n}"
+    }
+  ]
+}

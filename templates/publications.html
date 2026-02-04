@@ -30,11 +30,44 @@
       <footer class="footer">
         <div class="footer-inner">
           <span>Copyright <span data-year></span></span>
-          <span>Built with simple HTML</span>
         </div>
       </footer>
     </div>
 
     <script src="../assets/js/site.js"></script>
+    <script>
+      const burst = (x, y) => {
+        const emojis = ["🎉", "✨", "🎊"];
+        const el = document.createElement("div");
+        el.className = "confetti-burst";
+        el.textContent = emojis[Math.floor(Math.random() * emojis.length)];
+        el.style.left = `${x}px`;
+        el.style.top = `${y}px`;
+        document.body.appendChild(el);
+        setTimeout(() => el.remove(), 1000);
+      };
+
+      document.addEventListener("click", async (event) => {
+        const btn = event.target.closest(".bibtex-btn");
+        if (!btn) return;
+        const text = btn.getAttribute("data-bibtex");
+        if (!text) return;
+        try {
+          await navigator.clipboard.writeText(text);
+          const original = btn.textContent;
+          btn.textContent = "Copied";
+          const rect = btn.getBoundingClientRect();
+          burst(rect.right - 6, rect.top + rect.height / 2);
+          setTimeout(() => {
+            btn.textContent = original;
+          }, 1200);
+        } catch {
+          btn.textContent = "Error";
+          setTimeout(() => {
+            btn.textContent = "BibTeX";
+          }, 1200);
+        }
+      });
+    </script>
   </body>
 </html>
