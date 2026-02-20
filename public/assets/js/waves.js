@@ -13,6 +13,23 @@
     dpr: Math.max(1, window.devicePixelRatio || 1),
   };
 
+  const solidStyle = { dash: [], cap: "round" };
+  const lineStyles = [
+    { dash: [16, 8], cap: "butt" },
+    { dash: [1, 8], cap: "round" },
+    { dash: [14, 6, 2, 6], cap: "round" },
+    { dash: [24, 10], cap: "butt" },
+    { dash: [12, 6, 2, 6, 2, 6], cap: "round" },
+  ];
+
+  const applyLineStyle = (style, lineWidth) => {
+    ctx.lineWidth = lineWidth;
+    ctx.lineCap = style.cap;
+    const scale = Math.max(1, lineWidth / 2);
+    ctx.setLineDash(style.dash.map((segment) => segment * scale));
+    ctx.lineDashOffset = 0;
+  };
+
   const resize = () => {
     state.width = window.innerWidth;
     state.height = window.innerHeight;
@@ -34,20 +51,18 @@
     const baseSpeed = 0.12;
     const baseX = state.t;
 
-    ctx.lineWidth = 2;
-    ctx.strokeStyle = "rgba(35, 92, 176, 0.32)";
-
     for (let i = 0; i < lines; i += 1) {
       const isSum = i === lines - 1;
       const y0 = spacing * (i + 1.5);
       const speed = baseSpeed + i * 0.18;
       const baseFreq = 0.010 + i * 0.002;
+      const style = isSum ? solidStyle : lineStyles[i % lineStyles.length];
       if (isSum) {
         ctx.strokeStyle = "rgba(35, 92, 176, 0.55)";
-        ctx.lineWidth = 3;
+        applyLineStyle(style, 3);
       } else {
         ctx.strokeStyle = "rgba(35, 92, 176, 0.32)";
-        ctx.lineWidth = 2;
+        applyLineStyle(style, 2);
       }
       ctx.beginPath();
       for (let x = 0; x <= width + 40; x += 18) {
