@@ -47,6 +47,25 @@ const toIsoDate = (value) => {
   return date.toISOString();
 };
 
+const normalizeFrontmatterDate = (value) => {
+  if (!value) return "";
+  if (value instanceof Date && !Number.isNaN(value.getTime())) {
+    return value.toISOString().slice(0, 10);
+  }
+  return String(value).trim();
+};
+
+const formatEuropeanDate = (value) => {
+  if (!value) return "";
+  const parsed = Date.parse(value);
+  if (Number.isNaN(parsed)) return value;
+  return new Intl.DateTimeFormat("en-GB", {
+    day: "2-digit",
+    month: "long",
+    year: "numeric",
+  }).format(new Date(parsed));
+};
+
 const extractBlockMath = (input) => {
   const blocks = [];
   let output = "";
@@ -87,6 +106,24 @@ const extractBlockMath = (input) => {
   return { text: output, blocks };
 };
 
+const getPostYear = (post) => {
+  const parsedDate = Date.parse(post.date);
+  if (!Number.isNaN(parsedDate)) {
+    return String(new Date(parsedDate).getUTCFullYear());
+  }
+
+  const parsedLastmod = Date.parse(post.lastmod);
+  if (!Number.isNaN(parsedLastmod)) {
+    return String(new Date(parsedLastmod).getUTCFullYear());
+  }
+
+  if (Number.isFinite(post.timestamp)) {
+    return String(new Date(post.timestamp).getUTCFullYear());
+  }
+
+  return "Unknown";
+};
+
 const buildBlogIndex = (posts) => {
   if (!fs.existsSync(indexTemplatePath)) {
     console.warn("blog-index.html template not found, skipping blog index build.");
@@ -95,24 +132,65 @@ const buildBlogIndex = (posts) => {
 
   const template = readText(indexTemplatePath);
   const items = posts.length
-    ? posts
-        .map((post) => {
-          const meta = post.date ? `<span class="meta">${escapeHtml(post.date)}</span>` : "";
-          const description = post.description ? `<span>${escapeHtml(post.description)}</span>` : "";
-          return `
-            <div class="list-item">
-              ${meta}
-              <strong><a href="./${post.slug}/">${escapeHtml(post.title)}</a></strong>
-              ${description}
-            </div>
-          `;
-        })
-        .join("\n")
+    ? (() => {
+        const groups = new Map();
+        posts.forEach((post) => {
+          const year = getPostYear(post);
+          if (!groups.has(year)) {
+            groups.set(year, []);
+          }
+          groups.get(year).push(post);
+        });
+
+        const years = Array.from(groups.keys()).sort((a, b) => {
+          const aNum = Number(a);
+          const bNum = Number(b);
+          const aIsNum = Number.isFinite(aNum);
+          const bIsNum = Number.isFinite(bNum);
+
+          if (aIsNum && bIsNum) return bNum - aNum;
+          if (aIsNum) return -1;
+          if (bIsNum) return 1;
+          return a.localeCompare(b);
+        });
+
+        return years
+          .map((year) => {
+            const postsHtml = groups.get(year)
+              .map((post) => {
+                const displayDate = formatEuropeanDate(post.date);
+                const meta = displayDate ? `<span class="meta">${escapeHtml(displayDate)}</span>` : "";
+                const description = post.description ? `<span>${escapeHtml(post.description)}</span>` : "";
+                const href = post.url ? escapeHtml(post.url) : `./${post.slug}/`;
+                const targetAttrs = post.url ? ` target="_blank" rel="noopener noreferrer"` : "";
+                return `
+                  <div class="list-item">
+                    ${meta}
+                    <strong><a href="${href}"${targetAttrs}>${escapeHtml(post.title)}</a></strong>
+                    ${description}
+                  </div>
+                `;
+              })
+              .join("\n");
+
+            return `
+              <div class="blog-year-group">
+                <h3 class="section-title blog-year-title">${escapeHtml(year)}</h3>
+                <div class="list">
+                  ${postsHtml}
+                </div>
+              </div>
+            `;
+          })
+          .join("\n");
+      })()
     : `
-      <div class="list-item">
-        <span class="meta">No posts yet</span>
-        <strong>Coming soon</strong>
-        <span>New writing will appear here.</span>
+      <div class="list">
+        <div class="list-item">
+          <span class="meta">No posts yet</span>
+          <strong>Coming soon</strong>
+          <span>New writing will appear here.</span>
+        </div>
       </div>
     `;
 
@@ -182,8 +260,10 @@ const buildPosts = () => {
 
     const title = data.title ?? slug;
     const description = data.description ?? "";
-    const date = data.date ?? data.published ?? "";
-    const updated = data.updated ?? data.lastUpdated ?? "";
+    const date = normalizeFrontmatterDate(data.date ?? data.published ?? "");
+    const updated = normalizeFrontmatterDate(data.updated ?? data.lastUpdated ?? "");
+    const externalUrlRaw = data.url ?? data.link ?? data.externalUrl ?? "";
+    const url = typeof externalUrlRaw === "string" ? externalUrlRaw.trim() : "";
     const stats = fs.statSync(filePath);
     const parsedDate = Date.parse(date);
     const timestamp = Number.isNaN(parsedDate) ? stats.mtimeMs : parsedDate;
@@ -201,8 +281,10 @@ const buildPosts = () => {
 
     const rootFromOut = path.relative(outDir, rootDir) || ".";
     const rootPrefix = rootFromOut === "." ? "./" : `${rootFromOut}/`;
-    const dateLine = date ? `<p class="meta">Published ${escapeHtml(date)}</p>` : "";
-    const updatedLine = updated ? `<p class="meta">Updated ${escapeHtml(updated)}</p>` : "";
+    const displayDate = formatEuropeanDate(date);
+    const displayUpdated = formatEuropeanDate(updated);
+    const dateLine = displayDate ? `<p class="meta">Published ${escapeHtml(displayDate)}</p>` : "";
+    const updatedLine = displayUpdated ? `<p class="meta">Updated ${escapeHtml(displayUpdated)}</p>` : "";
 
     const page = template
       .replace(/\{\{title\}\}/g, escapeHtml(title))
@@ -223,6 +305,7 @@ const buildPosts = () => {
       description,
       date,
       updated,
+      url,
       timestamp,
       lastmod,
       index,

@@ -134,6 +134,30 @@ a:hover {
   font-size: 19px;
 }
 
+.home-announcement {
+  margin: 0 0 18px;
+  display: block;
+  color: var(--text);
+  font-size: 17px;
+  line-height: 1.85;
+}
+
+.new-badge {
+  display: inline-block;
+  font-family: "Instrument Sans", "Helvetica Neue", Arial, sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  padding: 2px 6px;
+  border: 1px solid #ad1f1f;
+  background: #ad1f1f;
+  color: #fff;
+  border-radius: 4px;
+  margin-right: 8px;
+  line-height: 1.2;
+}
+
 .inline-links {
   display: flex;
   flex-wrap: wrap;
@@ -174,6 +198,16 @@ a:hover {
   color: var(--muted);
   margin: 0 0 18px;
   font-family: "Instrument Sans", "Helvetica Neue", Arial, sans-serif;
+}
+
+.blog-year-group + .blog-year-group {
+  margin-top: 24px;
+  padding-top: 8px;
+  border-top: 1px solid var(--border);
+}
+
+.blog-year-title {
+  margin-bottom: 12px;
 }
 
 .list {
