@@ -1,3 +1,8 @@
 {
-  "baseUrl": "https://elephantmipt.github.io"
+  "baseUrl": "https://elephantmipt.github.io",
+  "publications": {
+    "name": "Nikita Balagansky",
+    "dblpPid": "318/0989",
+    "openReviewProfile": "~Nikita_Balagansky3"
+  }
 }

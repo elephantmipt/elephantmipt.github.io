@@ -1,0 +1,37 @@
+{
+  "author": "Nikita Balagansky",
+  "items": [
+    {
+      "id": "2026.emnlp-main.2480",
+      "type": "inproceedings",
+      "title": "Kronecker Factorization Improves Efficiency and Interpretability of Sparse Autoencoders",
+      "year": "2026",
+      "venue": "EMNLP",
+      "link": "https://aclanthology.org/2026.emnlp-main.2480/",
+      "authors": [
+        "Vadim Kurochkin",
+        "Yaroslav Aksenov",
+        "Daniil Laptev",
+        "Daniil Gavrilov",
+        "Nikita Balagansky"
+      ],
+      "bibtex": "@inproceedings{kurochkin-etal-2026-kronecker,\n  title={Kronecker Factorization Improves Efficiency and Interpretability of Sparse Autoencoders},\n  author={Kurochkin, Vadim and Aksenov, Yaroslav and Laptev, Daniil and Gavrilov, Daniil and Balagansky, Nikita},\n  editor={Lee, Hung-Yi and Dev, Sunipa and Li, Junyi Jessy and Elliott, Desmond},\n  booktitle={Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing},\n  month=oct,\n  year={2026},\n  address={Budapest, Hungary},\n  publisher={Association for Computational Linguistics},\n  url={https://aclanthology.org/2026.emnlp-main.2480/},\n  doi={10.18653/2026.emnlp-main.2480},\n  pages={56302--56323},\n  ISBN={979-8-89176-459-0}\n}"
+    },
+    {
+      "id": "2026.emnlp-main.2641",
+      "type": "inproceedings",
+      "title": "You Do Not Fully Utilize Transformer’s Representation Capacity",
+      "year": "2026",
+      "venue": "EMNLP",
+      "link": "https://aclanthology.org/2026.emnlp-main.2641/",
+      "authors": [
+        "Gleb Gerasimov",
+        "Yaroslav Aksenov",
+        "Nikita Balagansky",
+        "Viacheslav Sinii",
+        "Daniil Gavrilov"
+      ],
+      "bibtex": "@inproceedings{gerasimov-etal-2026-fully,\n  title={You Do Not Fully Utilize Transformer{'}s Representation Capacity},\n  author={Gerasimov, Gleb and Aksenov, Yaroslav and Balagansky, Nikita and Sinii, Viacheslav and Gavrilov, Daniil},\n  editor={Lee, Hung-Yi and Dev, Sunipa and Li, Junyi Jessy and Elliott, Desmond},\n  booktitle={Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing},\n  month=oct,\n  year={2026},\n  address={Budapest, Hungary},\n  publisher={Association for Computational Linguistics},\n  url={https://aclanthology.org/2026.emnlp-main.2641/},\n  doi={10.18653/2026.emnlp-main.2641},\n  pages={60080--60100},\n  ISBN={979-8-89176-459-0}\n}"
+    }
+  ]
+}

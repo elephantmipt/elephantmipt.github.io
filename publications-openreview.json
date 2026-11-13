@@ -1,0 +1,95 @@
+{
+  "author": "Nikita Balagansky",
+  "profile": "~Nikita_Balagansky3",
+  "items": [
+    {
+      "id": "ktRyGKpt9U",
+      "venueId": "ICML.cc/2026/Conference",
+      "type": "inproceedings",
+      "title": "Guided Star-Shaped Masked Diffusion",
+      "year": "2026",
+      "venue": "ICML",
+      "link": "https://openreview.net/forum?id=ktRyGKpt9U",
+      "authors": [
+        "Viacheslav Meshchaninov",
+        "Egor Shibaev",
+        "Artem Makoian",
+        "Ivan Klimov",
+        "Nikita Balagansky",
+        "Daniil Gavrilov",
+        "Aibek Alanov",
+        "Dmitry Vetrov"
+      ],
+      "bibtex": "@inproceedings{\nmeshchaninov2026guided,\ntitle={Guided Star-Shaped Masked Diffusion},\nauthor={Viacheslav Meshchaninov and Egor Shibaev and Artem Makoian and Ivan Klimov and Nikita Balagansky and Daniil Gavrilov and Aibek Alanov and Dmitry Vetrov},\nbooktitle={Forty-third International Conference on Machine Learning},\nyear={2026},\nurl={https://openreview.net/forum?id=ktRyGKpt9U}\n}"
+    },
+    {
+      "id": "SENVTfjHPr",
+      "venueId": "ICML.cc/2025/Conference",
+      "type": "inproceedings",
+      "title": "Analyze Feature Flow to Enhance Interpretation and Steering in Language Models",
+      "year": "2025",
+      "venue": "ICML",
+      "link": "https://openreview.net/forum?id=SENVTfjHPr",
+      "authors": [
+        "Daniil Laptev",
+        "Nikita Balagansky",
+        "Yaroslav Aksenov",
+        "Daniil Gavrilov"
+      ],
+      "bibtex": "@inproceedings{\nlaptev2025analyze,\ntitle={Analyze Feature Flow to Enhance Interpretation and Steering in Language Models},\nauthor={Daniil Laptev and Nikita Balagansky and Yaroslav Aksenov and Daniil Gavrilov},\nbooktitle={Forty-second International Conference on Machine Learning},\nyear={2025},\nurl={https://openreview.net/forum?id=SENVTfjHPr}\n}"
+    },
+    {
+      "id": "H0qIWXXLUR",
+      "venueId": "ICLR.cc/2025/Conference",
+      "type": "inproceedings",
+      "title": "Learn Your Reference Model for Real Good Alignment",
+      "year": "2025",
+      "venue": "ICLR",
+      "link": "https://openreview.net/forum?id=H0qIWXXLUR",
+      "authors": [
+        "Alexey Gorbatovski",
+        "Boris Shaposhnikov",
+        "Alexey Malakhov",
+        "Nikita Surnachev",
+        "Yaroslav Aksenov",
+        "Ian Maksimov",
+        "Nikita Balagansky",
+        "Daniil Gavrilov"
+      ],
+      "bibtex": "@inproceedings{\ngorbatovski2025learn,\ntitle={Learn Your Reference Model for Real Good Alignment},\nauthor={Alexey Gorbatovski and Boris Shaposhnikov and Alexey Malakhov and Nikita Surnachev and Yaroslav Aksenov and Ian Maksimov and Nikita Balagansky and Daniil Gavrilov},\nbooktitle={The Thirteenth International Conference on Learning Representations},\nyear={2025},\nurl={https://openreview.net/forum?id=H0qIWXXLUR}\n}"
+    },
+    {
+      "id": "MDvecs7EvO",
+      "venueId": "ICLR.cc/2025/Conference",
+      "type": "inproceedings",
+      "title": "Mechanistic Permutability: Match Features Across Layers",
+      "year": "2025",
+      "venue": "ICLR",
+      "link": "https://openreview.net/forum?id=MDvecs7EvO",
+      "authors": [
+        "Nikita Balagansky",
+        "Ian Maksimov",
+        "Daniil Gavrilov"
+      ],
+      "bibtex": "@inproceedings{\nbalagansky2025mechanistic,\ntitle={Mechanistic Permutability: Match Features Across Layers},\nauthor={Nikita Balagansky and Ian Maksimov and Daniil Gavrilov},\nbooktitle={The Thirteenth International Conference on Learning Representations},\nyear={2025},\nurl={https://openreview.net/forum?id=MDvecs7EvO}\n}"
+    },
+    {
+      "id": "d4XXFVAlV7",
+      "venueId": "colmweb.org/COLM/2025/Conference",
+      "type": "inproceedings",
+      "title": "Teach Old SAEs New Domain Tricks with Boosting",
+      "year": "2025",
+      "venue": "COLM",
+      "link": "https://openreview.net/forum?id=d4XXFVAlV7",
+      "authors": [
+        "Nikita Koriagin",
+        "Yaroslav Aksenov",
+        "Daniil Laptev",
+        "Gleb Gerasimov",
+        "Nikita Balagansky",
+        "Daniil Gavrilov"
+      ],
+      "bibtex": "@inproceedings{\nkoriagin2025teach,\ntitle={Teach Old {SAE}s New Domain Tricks with Boosting},\nauthor={Nikita Koriagin and Yaroslav Aksenov and Daniil Laptev and Gleb Gerasimov and Nikita Balagansky and Daniil Gavrilov},\nbooktitle={Second Conference on Language Modeling},\nyear={2025},\nurl={https://openreview.net/forum?id=d4XXFVAlV7}\n}"
+    }
+  ]
+}

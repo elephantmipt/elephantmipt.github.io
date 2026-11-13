@@ -5,6 +5,8 @@
   "scripts": {
     "build:posts": "node scripts/build-posts.mjs",
     "build:pubs": "node scripts/build-publications.mjs",
+    "update:pubs": "node scripts/update-publications.mjs && node scripts/build-publications.mjs",
+    "test:pubs": "node --test scripts/publications.test.mjs",
     "dev": "node scripts/build-posts.mjs && node scripts/build-publications.mjs && vite",
     "build": "node scripts/build-posts.mjs && node scripts/build-publications.mjs && vite build",
     "preview": "vite preview",

@@ -1,6 +1,11 @@
 {
   "items": [
     {
+      "title": "Guided Star-Shaped Masked Diffusion",
+      "link": "https://proceedings.mlr.press/v306/meshchaninov26a.html",
+      "bibtex": "@inproceedings{pmlr-v306-meshchaninov26a,\n  title={Guided Star-Shaped Masked Diffusion},\n  author={Meshchaninov, Viacheslav and Shibaev, Egor and Makoian, Artem and Klimov, Ivan and Balagansky, Nikita and Gavrilov, Daniil and Alanov, Aibek and Vetrov, Dmitry},\n  booktitle={Proceedings of the 43rd International Conference on Machine Learning},\n  pages={88261--88286},\n  year={2026},\n  volume={306},\n  series={Proceedings of Machine Learning Research},\n  publisher={PMLR},\n  url={https://proceedings.mlr.press/v306/meshchaninov26a.html}\n}"
+    },
+    {
       "title": "Mechanistic Permutability: Match Features Across Layers",
       "bibtex": "@inproceedings{balagansky2025mechanistic,\n  title={Mechanistic Permutability: Match Features Across Layers},\n  author={Nikita Balagansky and Ian Maksimov and Daniil Gavrilov},\n  booktitle={The Thirteenth International Conference on Learning Representations},\n  year={2025},\n  url={https://openreview.net/forum?id=MDvecs7EvO}\n}"
     },
